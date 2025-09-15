@@ -27,9 +27,9 @@
 
 ### Built-in multipliers as a feral tank
 
-* Bear/Dire Bear Form: ×1.30 threat to all your damage-based threat.
+* **Bear/Dire Bear Form**: ×1.30 threat to all your damage-based threat.
 
-* Feral Instinct (3/3): ×1.15 more threat (applies only in bear forms).
+* **Feral Instinct (3/3)**: ×1.15 more threat (applies only in bear forms).
 Together, bears sit at 1.30 × 1.15 = 1.495× threat on all damage-based sources.
 
 > **Note**: these multipliers do not change healing/mana/rage-gain threat—those are unmodified. 
@@ -40,21 +40,21 @@ Together, bears sit at 1.30 × 1.15 = 1.495× threat on all damage-based sources
 
 Below is what each button does for threat in TBC. “Damage × Modifier” means “whatever damage the ability deals, multiply the resulting threat by 1.495 if you’re in bear with Feral Instinct.”
 
-* Mangle (Bear): No extra threat modifier. Threat = damage × modifier. It also debuffs the target so all bleeds (and Shred) deal +30% damage for 12s, which passively boosts Lacerate-tick threat. 
+* **Mangle (Bear)**: No extra threat modifier. Threat = damage × modifier. It also debuffs the target so all bleeds (and Shred) deal +30% damage for 12s, which passively boosts Lacerate-tick threat. 
 
-* Lacerate: On application it has a flat bonus threat (TBC value widely documented as +285 before multipliers) plus its small direct damage; both are then multiplied by modifier. The DoT ticks (15s total, 5 ticks every 3s) are ordinary bleed damage → threat (and are 30% stronger while Mangle’s debuff is up). 
+* **Lacerate**: On application it has a flat bonus threat (TBC value widely documented as +285 before multipliers) plus its small direct damage; both are then multiplied by modifier. The DoT ticks (15s total, 5 ticks every 3s) are ordinary bleed damage → threat (and are 30% stronger while Mangle’s debuff is up). 
 
-* Maul: A “next-swing” strike with a flat bonus threat per rank added to its damage, then × modifier. (TBC changed Maul from Classic’s weird multiplier to a rank-based flat threat bonus.) Threat math is (Maul damage + Maul bonus) × modifier. 
+* **Maul**: A “next-swing” strike with a flat bonus threat per rank added to its damage, then × modifier. (TBC changed Maul from Classic’s weird multiplier to a rank-based flat threat bonus.) Threat math is (Maul damage + Maul bonus) × modifier. 
 
-* Swipe (Bear): No innate bonus threat in TBC; it’s just damage → threat (× modifier). Also, it hits up to 3 targets in TBC (not 360°/uncapped until Wrath). 
+* **Swipe (Bear)**: No innate bonus threat in TBC; it’s just damage → threat (× modifier). Also, it hits up to 3 targets in TBC (not 360°/uncapped until Wrath). 
 
-* Faerie Fire (Feral): Costs 0 rage, does (AP×0.15 + 1) damage, and has additional built-in threat in bear forms. Treat it as (damage + internal bonus) × modifier; it’s one of your best GCDs for snap threat on cooldown. 
+* **Faerie Fire (Feral)**: Costs 0 rage, does (AP×0.15 + 1) damage, and has additional built-in threat in bear forms. Treat it as (damage + internal bonus) × modifier; it’s one of your best GCDs for snap threat on cooldown. 
 
-* Demoralizing Roar: Tiny threat; use it for mitigation, not TPS. (Any threat it gives is negligible compared to Mangle/Lacerate/Maul/Swipe.)
+* **Demoralizing Roar**: Tiny threat; use it for mitigation, not TPS. (Any threat it gives is negligible compared to Mangle/Lacerate/Maul/Swipe.)
 
-* Thorns: Every reflected tick is just damage → threat, multiplied by your bear modifiers like any damage you deal. (Great passive AoE glue early in a pull.) 
+* **Thorns**: Every reflected tick is just damage → threat, multiplied by your bear modifiers like any damage you deal. (Great passive AoE glue early in a pull.) 
 
-* Growl (taunt): Sets your threat equal to the current target’s highest threat; it doesn’t add threat by itself and isn’t multiplied. Use it to match the leader, then follow with a high-threat ability. 
+* **Growl (taunt)**: Sets your threat equal to the current target’s highest threat; it doesn’t add threat by itself and isn’t multiplied. Use it to match the leader, then follow with a high-threat ability. 
 
 ### How pre-HoTs (self-healing before the pull) affect threat
 
@@ -120,19 +120,19 @@ Lacerate over time: Suppose your Lacerate DoT totals 600 damage baseline over 15
 
 ### Reference: threat formulas
 
-* Generic hit: Threat = (Damage) × 1.495 (bear + Feral Instinct). 
+* **Generic hit**: Threat = (Damage) × 1.495 (bear + Feral Instinct). 
 
-* Lacerate (apply): ((DirectDamage) + 285) × 1.495. DoT ticks: (TickDamage) × 1.495. 
+* **Lacerate (apply)**: ((DirectDamage) + 285) × 1.495. DoT ticks: (TickDamage) × 1.495. 
 
-* Maul: ((MaulDamage) + MaulFlatBonusByRank) × 1.495. (Flat bonus is rank-based in TBC.) 
+* **Maul**: ((MaulDamage) + MaulFlatBonusByRank) × 1.495. (Flat bonus is rank-based in TBC.) 
 
-* Mangle: (Damage) × 1.495. Also remember Mangle → +30% bleed damage (bakes more Lacerate tick-threat). 
+* **Mangle**: (Damage) × 1.495. Also remember Mangle → +30% bleed damage (bakes more Lacerate tick-threat). 
 
-* Faerie Fire (Feral): ((AP×0.15 + 1) + internal bonus) × 1.495.
+* **Faerie Fire (Feral)**: ((AP×0.15 + 1) + internal bonus) × 1.495.
 
-* Healing tick after pull: (EffectiveHeal × 0.5) / (#mobs in combat with you). Not multiplied by bear/talents.
+* **Healing tick after pull**: (EffectiveHeal × 0.5) / (#mobs in combat with you). Not multiplied by bear/talents.
 
-* Rage gains (e.g., pot, Enrage tick): Rage × 5 threat (unmodified by form/talents).
+* **Rage gains (e.g., pot, Enrage tick)**: Rage × 5 threat (unmodified by form/talents).
 ---
 <br>
 <br>
@@ -143,33 +143,33 @@ Lacerate over time: Suppose your Lacerate DoT totals 600 damage baseline over 15
 <br>
 
 ### Built-in multipliers as a Protection Paladin
-* Righteous Fury (RF): +60% threat to Holy spells (×1.6). With Improved Righteous Fury 3/3 it increases RF’s bonus by 50%, i.e., +90% total → ×1.9 to (most) Holy-based threat. (It also gives 6% damage taken reduction.)
+* **Righteous Fury (RF)**: +60% threat to Holy spells (×1.6). With Improved Righteous Fury 3/3 it increases RF’s bonus by 50%, i.e., +90% total → ×1.9 to (most) Holy-based threat. (It also gives 6% damage taken reduction.)
 
-* Holy Shield damage has +35% extra threat baked in (on top of RF). (Base Holy Shield has 4 charges; Improved Holy Shield adds +2/+4 charges and +10/20% damage.)
+* **Holy Shield** damage has +35% extra threat baked in (on top of RF). (Base Holy Shield has 4 charges; Improved Holy Shield adds +2/+4 charges and +10/20% damage.)
 
 > Multiplying it all: for a Holy spell without its own bonus, Threat = Damage × 1.9 (with Imp RF). For Holy Shield, Threat = Damage × 1.35 × 1.9.
 
 ### Ability-by-ability
 
-* Consecration — 8-sec ground DoT, 8 ticks (1/sec). Threat is pure damage (Holy) → ×1.9 with RF. (Rank 1 is cheap and still benefits from RF.)
+* **Consecration** — 8-sec ground DoT, 8 ticks (1/sec). Threat is pure damage (Holy) → ×1.9 with RF. (Rank 1 is cheap and still benefits from RF.)
 
-* Holy Shield — Each block deals Holy damage and gets +35% threat and RF. Your highest TPS when getting hit fast.
+* **Holy Shield** — Each block deals Holy damage and gets +35% threat and RF. Your highest TPS when getting hit fast.
 
-* Avenger’s Shield — Snap ranged Holy damage on up to 3 targets; great opener. Threat = damage × RF. (Rank 3 deals 494–602 per target before mods.)
+* **Avenger’s Shield** — Snap ranged Holy damage on up to 3 targets; great opener. Threat = damage × RF. (Rank 3 deals 494–602 per target before mods.)
 
-* Seal + Judgement
+* **Seal + Judgement**
 
-  * Seal of Righteousness (SoR) — Adds Holy damage to every swing; Judgement of Righteousness is direct Holy damage. Threat = damage × RF.
+  * **Seal of Righteousness (SoR)** — Adds Holy damage to every swing; Judgement of Righteousness is direct Holy damage. Threat = damage × RF.
 
-  * Seal of Vengeance (SoV) — (Alliance in original TBC; widely available in TBC Classic) stacks a Holy DoT; strong single-target threat when stacked. DoT + Judgement = Holy → RF applies.
+  * **Seal of Vengeance (SoV)** — (Alliance in original TBC; widely available in TBC Classic) stacks a Holy DoT; strong single-target threat when stacked. DoT + Judgement = Holy → RF applies.
 
-* Retribution Aura — Deals small Holy damage to attackers; every hit is Holy → ×1.9. (TBC guides often quote 26 damage/hit at max rank → ~49 threat/hit with RF.)
+* **Retribution Aura** — Deals small Holy damage to attackers; every hit is Holy → ×1.9. (TBC guides often quote 26 damage/hit at max rank → ~49 threat/hit with RF.)
 
-* (Greater) Blessing of Sanctuary — When you block, the attacker takes small Holy damage (and you reduce damage taken); Holy damage → ×1.9.
+* **(Greater) Blessing of Sanctuary** — When you block, the attacker takes small Holy damage (and you reduce damage taken); Holy damage → ×1.9.
 
-* Righteous Defense — Multi-target taunt (no damage, no direct threat added) that sets your threat to the current highest for those mobs and forces attacks for 3s.
+* **Righteous Defense** — Multi-target taunt (no damage, no direct threat added) that sets your threat to the current highest for those mobs and forces attacks for 3s.
 
-* Misc Holy nukes (situational): Exorcism/Holy Wrath (undead/demon only) → damage × RF.
+* **Misc Holy nukes (situational)**: Exorcism/Holy Wrath (undead/demon only) → damage × RF.
 
 > Patch talent that quietly helps: One-Handed Weapon Specialization (Prot) became “increases all damage by up to 5%”, which bumps your damage (and thus threat) across the board.
 
@@ -197,24 +197,24 @@ Lacerate over time: Suppose your Lacerate DoT totals 600 damage baseline over 15
 
 #### Single-target opener (boss)
 
-* Avenger’s Shield hits for 550 → Threat = 550 × 1.9 = 1,045. 
-* Consecration (8s) ticks for 150 each × 8 = 1,200 damage → Threat = 1,200 × 1.9 = 2,280. 
-* Holy Shield: 3 blocks in the first 10s at 155 each → raw dmg 465. Threat = 465 × 1.35 × 1.9 = 1,191.
-* Judgement of Righteousness hits for 300 → Threat = 300 × 1.9 = 570.
+* **Avenger’s Shield** hits for 550 → Threat = 550 × 1.9 = 1,045. 
+* **Consecration** (8s) ticks for 150 each × 8 = 1,200 damage → Threat = 1,200 × 1.9 = 2,280. 
+* **Holy Shield**: 3 blocks in the first 10s at 155 each → raw dmg 465. Threat = 465 × 1.35 × 1.9 = 1,191.
+* **Judgement of Righteousness** hits for 300 → Threat = 300 × 1.9 = 570.
 
 > Rough total over the first 8–10s: ~5,086 threat → ~510 TPS (heavily dependent on blocks and your actual numbers).
 
 #### 5-mob AoE pull
 
-* Consecration ticks 150 each → 285 threat per tick per mob (×1.9). Over 8s, 2,280 threat per mob.
+* **Consecration** ticks 150 each → 285 threat per tick per mob (×1.9). Over 8s, 2,280 threat per mob.
 
-* Avenger’s Shield tags 3 mobs for 550 each → 1,045 opening threat to those 3.
+* **Avenger’s Shield** tags 3 mobs for 550 each → 1,045 opening threat to those 3.
 
-* Holy Shield: say you consume 8 charges in 10s at 155 each → damage 1,240 → Threat = 1,240 × 1.35 × 1.9 ≈ 3,176, distributed to whatever is swinging (great front-loaded TPS).
+* **Holy Shield**: say you consume 8 charges in 10s at 155 each → damage 1,240 → Threat = 1,240 × 1.35 × 1.9 ≈ 3,176, distributed to whatever is swinging (great front-loaded TPS).
 
-* Retribution Aura: if each mob hits you once per sec for 8s at 26 aura damage per hit → 26 × 1.9 ≈ 49 threat/hit. With 5 mobs × 8s ≈ ~1,960 extra splash threat riding passively. (Real hit timers vary.)
+* **Retribution Aura**: if each mob hits you once per sec for 8s at 26 aura damage per hit → 26 × 1.9 ≈ 49 threat/hit. With 5 mobs × 8s ≈ ~1,960 extra splash threat riding passively. (Real hit timers vary.)
 
-* Blessing of Sanctuary: each block returns small Holy damage → multiply its damage by 1.9 for the threat per block.
+* **Blessing of Sanctuary**: each block returns small Holy damage → multiply its damage by 1.9 for the threat per block.
 
 > Practical opener: AS → Consecration → Holy Shield (keep it up) → Judge on the runner → maintain seal. Toss Righteous Defense if anything peels (it sets your threat to the leader on that target).
 
@@ -228,60 +228,50 @@ Lacerate over time: Suppose your Lacerate DoT totals 600 damage baseline over 15
 
 ### Built-in multipliers as a Protection Warrior
 
-* Defensive Stance: ×1.30 to almost all threat you cause.
+* **Defensive Stance**: ×1.30 to almost all threat you cause.
 
-* Defiance (3/3): +15% more on top → 1.30 × 1.15 = 1.495× to your ability/damage threat (I’ll call this T_mod). (Battle/ Berserker Stance are ×0.8.) 
+* **Defiance (3/3)**: +15% more on top → 1.30 × 1.15 = 1.495× to your ability/damage threat (I’ll call this T_mod). (Battle/ Berserker Stance are ×0.8.) 
 >Multipliers are multiplicative with everything else (Salv, etc.).
 
 <br>
 
 ### Ability-by-ability
 
-#### Shield Slam
-* Threat = (damage) (scales with Block Value) + an innate flat bonus, then × modifier.
+* **Shield Slam** Threat = (damage) (scales with Block Value) + an innate flat bonus, then × modifier.
 
-#### Devastate (replaces Sunder for Prot)
-* Devastate threat ≈ (50% normalized weapon damage + 35×stacks damage) + +101 innate threat, then × modifier; with 5 stacks that worked out to ~444 raw before stance.
+* **Devastate** threat ≈ (50% normalized weapon damage + 35×stacks damage) + +101 innate threat, then × modifier; with 5 stacks that worked out to ~444 raw before stance.
+>**Patch 2.3**: Devastate “combines the effects of Sunder Armor” and is affected by all talents/items that affect Sunder—i.e., when you add a Sunder via Devastate you also get Sunder’s flat threat; refreshing at 5 stacks does not add a new Sunder.
 
-* Patch 2.3: Devastate “combines the effects of Sunder Armor” and is affected by all talents/items that affect Sunder—i.e., when you add a Sunder via Devastate you also get Sunder’s flat threat; refreshing at 5 stacks does not add a new Sunder.
+* **Sunder Armor**: Flat +301 threat per application (Rank 6) with no damage; multiply by modifier. Still generates threat even past 5 stacks (but doesn’t stack further).
 
-#### Sunder Armor
-* Flat +301 threat per application (Rank 6) with no damage; multiply by modifier. Still generates threat even past 5 stacks (but doesn’t stack further).
+* **Revenge**: Cheap, off-CD when it lights: damage + a flat bonus (rank-based; commonly ~+200 at level-70 ranks) → then × modifier. Pound it whenever it procs.
 
-#### Revenge
-* Cheap, off-CD when it lights: damage + a flat bonus (rank-based; commonly ~+200 at level-70 ranks) → then × modifier. Pound it whenever it procs.
+* **Heroic Strike**: Adds damage and a flat +196 threat (Rank 10) to that swing, then × modifier. Remember: HS replaces the rage you’d gain from that white hit, so it’s only efficient when you’ve got spare rage.
 
-#### Heroic Strike (on-next-swing)
-* Adds damage and a flat +196 threat (Rank 10) to that swing, then × modifier. Remember: HS replaces the rage you’d gain from that white hit, so it’s only efficient when you’ve got spare rage.
+* **Thunder Clap**: Base threat = 1.75 × damage done, then × modifier. In TBC it hits up to 4 targets. Use it for opener “glue,” not for sustained AoE TPS.
 
-#### Thunder Clap (now usable in Defensive Stance in TBC)
-* Base threat = 1.75 × damage done, then × modifier. In TBC it hits up to 4 targets. Use it for opener “glue,” not for sustained AoE TPS.
+* **Demoralizing Shout**: Very small fixed threat (treat it as utility/mitigation, not real TPS).
 
-#### Demoralizing Shout
-* Very small fixed threat (treat it as utility/mitigation, not real TPS).
+* **Taunt**: Sets your threat equal to the current target’s highest (no bonus), then forces attacks for 3s. Follow it with a big threat move (Shield Slam/Devastate).
 
-#### Taunt
-* Sets your threat equal to the current target’s highest (no bonus), then forces attacks for 3s. Follow it with a big threat move (Shield Slam/Devastate).
-
-<br>
 <br>
 
 ### Quick Math
 
 Modifier = 1.495 (Defensive + Defiance).
-* Generic hit (no special bonus): Threat = Damage × 1.495. 
+* **Generic hit** (no special bonus): Threat = Damage × 1.495. 
 
-* Sunder: Threat = 301 × 1.495 = 450 per GCD. 
+* **Sunder**: Threat = 301 × 1.495 = 450 per GCD. 
 
-* Devastate (5 stacks, 2.0.x baseline): ~444 × 1.495 ≈ 664 per GCD. If you apply a Sunder with Devastate (2.3+), add Sunder’s flat threat before multiplying. 
+* **Devastate** (5 stacks, 2.0.x baseline): ~444 × 1.495 ≈ 664 per GCD. If you apply a Sunder with Devastate (2.3+), add Sunder’s flat threat before multiplying. 
 
-* Shield Slam (example): if it hits for 800 and we use ~+300 flat: (800 + 300) × 1.495 ≈ 1,645 threat. 
+* **Shield Slam** (example): if it hits for 800 and we use ~+300 flat: (800 + 300) × 1.495 ≈ 1,645 threat. 
 
-* Revenge (example): if it hits for 400 and we assume ~+200 flat: (400 + 200) × 1.495 ≈ 898 threat.
+* **Revenge** (example): if it hits for 400 and we assume ~+200 flat: (400 + 200) × 1.495 ≈ 898 threat.
 
-* Heroic Strike (example swing): if HS adds +176 damage and +196 threat and your swing’s post-mitig damage add is 400 → (400 + 196) × 1.495 ≈ 894 threat (but account for HS rage cost/opportunity).
+* **Heroic Strike** (example swing): if HS adds +176 damage and +196 threat and your swing’s post-mitig damage add is 400 → (400 + 196) × 1.495 ≈ 894 threat (but account for HS rage cost/opportunity).
 
-* Thunder Clap (example): if it deals 120 to each of 4 mobs: per mob 120 × 1.75 × 1.495 ≈ 314 threat (cap 4 targets). 
+* **Thunder Clap** (example): if it deals 120 to each of 4 mobs: per mob 120 × 1.75 × 1.495 ≈ 314 threat (cap 4 targets). 
 
 <br>
 
@@ -291,19 +281,19 @@ Modifier = 1.495 (Defensive + Defiance).
 
 Assume: Shield Slam hits for 800; Devastate at 5 stacks; Revenge lights; Sunder as needed.
 
-* Shield Slam: (800 + ~300) × 1.495 ≈ 1,645 threat. 
+* **Shield Slam**: (800 + ~300) × 1.495 ≈ 1,645 threat. 
 
-* Devastate (5 stacks): ~444 × 1.495 ≈ 664 threat (refresh only). If this GCD adds a Sunder stack (2.3+), add +301 × 1.495 ≈ 450 more. 
+* **Devastate (5 stacks)**: ~444 × 1.495 ≈ 664 threat (refresh only). If this GCD adds a Sunder stack (2.3+), add +301 × 1.495 ≈ 450 more. 
 
-* Revenge: (~400 + ~200) × 1.495 ≈ 898 threat. 
+* **Revenge**: (~400 + ~200) × 1.495 ≈ 898 threat. 
 
-* Fillers: Sunder (≈450) when Devastate isn’t optimal (e.g., building early stacks) or you’re rage-starved; HS only if you’re floating rage. 
+* **Fillers**: Sunder (≈450) when Devastate isn’t optimal (e.g., building early stacks) or you’re rage-starved; HS only if you’re floating rage. 
 
 > Practical prio: Shield Slam on CD → Revenge on proc → Devastate (build/maintain stacks) → Sunder only while stacking / if you can’t Devastate → HS to bleed excess rage.
 
 
 #### 5-mob trash pull (glue + tab threat)
 
-* Thunder Clap hits 4 targets for ~120 → ~314 threat each (×1.495, 1.75x base), then tab Devastate/Sunder the kill target and runner; Demo Shout for mitigation + a bit of blanket threat; Taunt anything that peels and follow with Shield Slam. 
+* **Thunder Clap** hits 4 targets for ~120 → ~314 threat each (×1.495, 1.75x base), then tab Devastate/Sunder the kill target and runner; Demo Shout for mitigation + a bit of blanket threat; Taunt anything that peels and follow with Shield Slam. 
 
 ---
