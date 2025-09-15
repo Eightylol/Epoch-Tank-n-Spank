@@ -306,14 +306,4 @@ Assume: Shield Slam hits for 800; Devastate at 5 stacks; Revenge lights; Sunder 
 
 * Thunder Clap hits 4 targets for ~120 → ~314 threat each (×1.495, 1.75x base), then tab Devastate/Sunder the kill target and runner; Demo Shout for mitigation + a bit of blanket threat; Taunt anything that peels and follow with Shield Slam. 
 
-
-
-
-<br>
-<br>
-<br>
-
-
-
 ---
-
