@@ -21,7 +21,7 @@
 <br>
 <br>
 
-## Druid Feral
+# Druid Feral
 
 <br>
 
@@ -72,12 +72,12 @@ Below is what each button does for threat in TBC. “Damage × Modifier” means
 
 #### Single-target opener (no external buffs)
 
-##### Assume:
+#### Assume:
 * Your Mangle hits for 1,200.
 * You apply Lacerate (100 direct damage, +285 bonus threat).
 * You queue Maul and it hits for 900; assume Maul’s flat bonus ≈ +200 (rank-based in TBC).
 
-##### Threat per GCD:
+#### Threat per GCD:
 * Mangle: 1,200 × 1.495 = 1,794 threat. 
 * Lacerate (application): (100 + 285) × 1.495 = 576 threat. 
 * Maul: (900 + 200) × 1.495 ≈ 1,645 threat. 
@@ -100,14 +100,14 @@ Lacerate over time: Suppose your Lacerate DoT totals 600 damage baseline over 15
 
 ### Practical threat priorities (TBC)
 
-##### Single target
+#### Single target
 
 * Keep Mangle on cooldown (biggest snap TPS).
 * Stack/maintain Lacerate to 5, then refresh; its +285 on apply plus buffed bleed ticks are huge over time.
 * Maul when you have the rage (it’s off-GCD and carries a flat threat bonus).
 * Faerie Fire (Feral) on cooldown for free, high snap threat and armor debuff.
 
-##### Multi-target (3+)
+#### Multi-target (3+)
 
 * Swipe on cooldown and tab-Mangle through priority targets; sprinkle Lacerate on ones you risk losing. Remember Swipe is 3-target in TBC, so rotate it smartly.
 
@@ -237,104 +237,77 @@ Lacerate over time: Suppose your Lacerate DoT totals 600 damage baseline over 15
 
 ### Ability-by-ability
 
-Shield Slam
+#### Shield Slam
 * Threat = (damage) (scales with Block Value) + an innate flat bonus, then × modifier.
 
-Devastate (replaces Sunder for Prot)
-* Devastate threat ≈ (50% normalized weapon damage + 35×stacks damage) + +101 innate threat, then × T_mod; with 5 stacks that worked out to ~444 raw before stance.
+#### Devastate (replaces Sunder for Prot)
+* Devastate threat ≈ (50% normalized weapon damage + 35×stacks damage) + +101 innate threat, then × modifier; with 5 stacks that worked out to ~444 raw before stance.
+
 * Patch 2.3: Devastate “combines the effects of Sunder Armor” and is affected by all talents/items that affect Sunder—i.e., when you add a Sunder via Devastate you also get Sunder’s flat threat; refreshing at 5 stacks does not add a new Sunder.
 
-Sunder Armor (if you still have the button)
-* Flat +301 threat per application (Rank 6) with no damage; multiply by T_mod. Still generates threat even past 5 stacks (but doesn’t stack further).
+#### Sunder Armor
+* Flat +301 threat per application (Rank 6) with no damage; multiply by modifier. Still generates threat even past 5 stacks (but doesn’t stack further).
 
-Revenge
-* Cheap, off-CD when it lights: damage + a flat bonus (rank-based; commonly ~+200 at level-70 ranks) → then × T_mod. Pound it whenever it procs.
+#### Revenge
+* Cheap, off-CD when it lights: damage + a flat bonus (rank-based; commonly ~+200 at level-70 ranks) → then × modifier. Pound it whenever it procs.
 
-Heroic Strike (on-next-swing)
-* Adds damage and a flat +196 threat (Rank 10) to that swing, then × T_mod. Remember: HS replaces the rage you’d gain from that white hit, so it’s only efficient when you’ve got spare rage.
+#### Heroic Strike (on-next-swing)
+* Adds damage and a flat +196 threat (Rank 10) to that swing, then × modifier. Remember: HS replaces the rage you’d gain from that white hit, so it’s only efficient when you’ve got spare rage.
 
-Thunder Clap (now usable in Defensive Stance in TBC)
-* Base threat = 1.75 × damage done, then × T_mod. In TBC it hits up to 4 targets. Use it for opener “glue,” not for sustained AoE TPS.
+#### Thunder Clap (now usable in Defensive Stance in TBC)
+* Base threat = 1.75 × damage done, then × modifier. In TBC it hits up to 4 targets. Use it for opener “glue,” not for sustained AoE TPS.
 
-Demoralizing Shout
+#### Demoralizing Shout
 * Very small fixed threat (treat it as utility/mitigation, not real TPS).
 
-Taunt
+#### Taunt
 * Sets your threat equal to the current target’s highest (no bonus), then forces attacks for 3s. Follow it with a big threat move (Shield Slam/Devastate).
 
 <br>
+<br>
 
-### Quick threat math you can plug in
+### Quick Math
 
-Modifier odifier = 1.495 (Defensive + Defiance).
+Modifier = 1.495 (Defensive + Defiance).
+* Generic hit (no special bonus): Threat = Damage × 1.495. 
 
-Generic hit (no special bonus): Threat = Damage × 1.495. 
-WoWWiki Archive
+* Sunder: Threat = 301 × 1.495 = 450 per GCD. 
 
-Sunder: Threat = 301 × 1.495 = 450 per GCD. 
-bluetracker.gg
+* Devastate (5 stacks, 2.0.x baseline): ~444 × 1.495 ≈ 664 per GCD. If you apply a Sunder with Devastate (2.3+), add Sunder’s flat threat before multiplying. 
 
-Devastate (5 stacks, 2.0.x baseline): ~444 × 1.495 ≈ 664 per GCD. If you apply a Sunder with Devastate (2.3+), add Sunder’s flat threat before multiplying. 
-bluetracker.gg
-+1
+* Shield Slam (example): if it hits for 800 and we use ~+300 flat: (800 + 300) × 1.495 ≈ 1,645 threat. 
 
-Shield Slam (example): if it hits for 800 and we use ~+300 flat: (800 + 300) × 1.495 ≈ 1,645 threat. 
-Warcraft DB
-+1
+* Revenge (example): if it hits for 400 and we assume ~+200 flat: (400 + 200) × 1.495 ≈ 898 threat.
 
-Revenge (example): if it hits for 400 and we assume ~+200 flat: (400 + 200) × 1.495 ≈ 898 threat. 
-forum.buffed.de
+* Heroic Strike (example swing): if HS adds +176 damage and +196 threat and your swing’s post-mitig damage add is 400 → (400 + 196) × 1.495 ≈ 894 threat (but account for HS rage cost/opportunity).
 
-Heroic Strike (example swing): if HS adds +176 damage and +196 threat and your swing’s post-mitig damage add is 400 → (400 + 196) × 1.495 ≈ 894 threat (but account for HS rage cost/opportunity). 
-bluetracker.gg
+* Thunder Clap (example): if it deals 120 to each of 4 mobs: per mob 120 × 1.75 × 1.495 ≈ 314 threat (cap 4 targets). 
 
-Thunder Clap (example): if it deals 120 to each of 4 mobs: per mob 120 × 1.75 × 1.495 ≈ 314 threat (cap 4 targets). 
-Wowpedia
-+1
+<br>
 
-Healing tick after pull: Per-mob threat = (EffectiveHeal × 0.5 / #mobs) (no stance). 
-WoWWiki Archive
+### Threat examples with math
 
-Worked examples
-A) Single-target boss opener (no external buffs)
+#### Single-target boss opener (no external buffs)
 
 Assume: Shield Slam hits for 800; Devastate at 5 stacks; Revenge lights; Sunder as needed.
 
-Shield Slam: (800 + ~300) × 1.495 ≈ 1,645 threat. 
-Warcraft DB
-+1
+* Shield Slam: (800 + ~300) × 1.495 ≈ 1,645 threat. 
 
-Devastate (5 stacks): ~444 × 1.495 ≈ 664 threat (refresh only). If this GCD adds a Sunder stack (2.3+), add +301 × 1.495 ≈ 450 more. 
-bluetracker.gg
-+1
+* Devastate (5 stacks): ~444 × 1.495 ≈ 664 threat (refresh only). If this GCD adds a Sunder stack (2.3+), add +301 × 1.495 ≈ 450 more. 
 
-Revenge: (~400 + ~200) × 1.495 ≈ 898 threat. 
-forum.buffed.de
+* Revenge: (~400 + ~200) × 1.495 ≈ 898 threat. 
 
-Fillers: Sunder (≈450) when Devastate isn’t optimal (e.g., building early stacks) or you’re rage-starved; HS only if you’re floating rage. 
-bluetracker.gg
+* Fillers: Sunder (≈450) when Devastate isn’t optimal (e.g., building early stacks) or you’re rage-starved; HS only if you’re floating rage. 
 
-Practical prio: Shield Slam on CD → Revenge on proc → Devastate (build/maintain stacks) → Sunder only while stacking / if you can’t Devastate → HS to bleed excess rage.
+> Practical prio: Shield Slam on CD → Revenge on proc → Devastate (build/maintain stacks) → Sunder only while stacking / if you can’t Devastate → HS to bleed excess rage.
 
-B) 5-mob trash pull (glue + tab threat)
 
-Thunder Clap hits 4 for ~120 → ~314 threat each (×1.495, 1.75x base), then tab Devastate/Sunder the kill target and runner; Demo Shout for mitigation + a bit of blanket threat; Taunt anything that peels and follow with Shield Slam. 
-Wowpedia
-+2
-WoW Classic DB
-+2
+#### 5-mob trash pull (glue + tab threat)
 
-Small but important TBC notes
+* Thunder Clap hits 4 targets for ~120 → ~314 threat each (×1.495, 1.75x base), then tab Devastate/Sunder the kill target and runner; Demo Shout for mitigation + a bit of blanket threat; Taunt anything that peels and follow with Shield Slam. 
 
-Thunder Clap became usable in Defensive Stance in TBC (patch 2.0.10) and has a 1.75× damage→threat coefficient; still capped to 4 targets in TBC. 
-WoWWiki Archive
-+2
-Wowpedia
-+2
 
-Devastate in 2.3 officially “combines the effects of Sunder” and inherits its item/talent interactions; refreshing at 5 stacks doesn’t add a new Sunder (no extra Sunder threat). 
-bluetracker.gg
-+1
+
 
 <br>
 <br>
