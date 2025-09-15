@@ -38,7 +38,7 @@ Together, bears sit at 1.30 × 1.15 = 1.495× threat on all damage-based sources
 
 ### Ability-by-ability
 
-Below is what each button does for threat in TBC. “Damage × Modifier” means “whatever damage the ability deals, multiply the resulting threat by 1.495 if you’re in bear with Feral Instinct.”
+Below is what each ability does for threat in TBC. “Damage × Modifier” means “whatever damage the ability deals, multiply the resulting threat by 1.495 - assuming you have the Feral Instinct talent.”
 
 * **Mangle (Bear)**: No extra threat modifier. Threat = damage × modifier. It also debuffs the target so all bleeds (and Shred) deal +30% damage for 12s, which passively boosts Lacerate-tick threat. 
 
@@ -78,22 +78,22 @@ Below is what each button does for threat in TBC. “Damage × Modifier” means
 * You queue Maul and it hits for 900; assume Maul’s flat bonus ≈ +200 (rank-based in TBC).
 
 #### Threat per GCD:
-* Mangle: 1,200 × 1.495 = 1,794 threat. 
-* Lacerate (application): (100 + 285) × 1.495 = 576 threat. 
-* Maul: (900 + 200) × 1.495 ≈ 1,645 threat. 
+* Mangle: 1,200 × 1.495 = **1,794 threat**. 
+* Lacerate (application): (100 + 285) × 1.495 = **576 threat**. 
+* Maul: (900 + 200) × 1.495 ≈ **1,645 threat**. 
 
 
-Immediate total after those three actions ≈ 4,015 TPS worth of lead (not counting white swings).
+Immediate total after those three actions ≈ **4,015 TPS** worth of lead (not counting white swings).
 
-Lacerate over time: Suppose your Lacerate DoT totals 600 damage baseline over 15s; with Mangle’s +30% bleed debuff it does 780 total = 156 per tick (5 ticks). Each tick’s threat: 156 × 1.495 ≈ 233; over 15s that’s ~1,166 extra threat “for free.” 
+Lacerate over time: Suppose your Lacerate DoT totals 600 damage baseline over 15s; with Mangle’s +30% bleed debuff it does 780 total = 156 per tick (5 ticks). Each tick’s threat: 156 × 1.495 ≈ **233**; over 15s that’s ~**1,166 extra threat** “for free.” 
 
 <br>
 
 #### 5-mob trash pull (using pre-HoTs + Swipe)
 
-* Pre-pull Rejuvenation tick lands for 700 effective right as combat starts → healing threat = 700×0.5 = 350 total, split 350/5 = 70 per mob (unmodified). 
+* Pre-pull Rejuvenation tick lands for 700 effective right as combat starts → healing threat = 700×0.5 = 350 total, split 350/5 = **70 per mob** (unmodified). 
 
-* Swipe hits 3 targets; assume 300 damage to each → per target threat = 300 × 1.495 = 449. Two Swipes (tagging different 3-packs) quickly give you ~900 threat on five mobs, while the pre-HoT glued them at 70 each and Thorns ticks add small, multiplied damage-threat as they swing. (Remember Swipe hits 3 targets in TBC.)
+* Swipe hits 3 targets; assume 300 damage to each → per target threat = 300 × 1.495 = 449. Two Swipes (tagging different 3-packs) quickly give you **~900 threat** on five mobs, while the pre-HoT glued them at 70 each and Thorns ticks add small, multiplied damage-threat as they swing. (Remember Swipe hits 3 targets in TBC.)
 
 <br>
 <br>
@@ -197,22 +197,22 @@ Lacerate over time: Suppose your Lacerate DoT totals 600 damage baseline over 15
 
 #### Single-target opener (boss)
 
-* **Avenger’s Shield** hits for 550 → Threat = 550 × 1.9 = 1,045. 
-* **Consecration** (8s) ticks for 150 each × 8 = 1,200 damage → Threat = 1,200 × 1.9 = 2,280. 
-* **Holy Shield**: 3 blocks in the first 10s at 155 each → raw dmg 465. Threat = 465 × 1.35 × 1.9 = 1,191.
-* **Judgement of Righteousness** hits for 300 → Threat = 300 × 1.9 = 570.
+* **Avenger’s Shield** hits for 550 → Threat = 550 × 1.9 = **1,045**. 
+* **Consecration** (8s) ticks for 150 each × 8 = 1,200 damage → Threat = 1,200 × 1.9 = **2,280**. 
+* **Holy Shield**: 3 blocks in the first 10s at 155 each → raw dmg 465. Threat = 465 × 1.35 × 1.9 = **1,191**.
+* **Judgement of Righteousness** hits for 300 → Threat = 300 × 1.9 = **570**.
 
 > Rough total over the first 8–10s: ~5,086 threat → ~510 TPS (heavily dependent on blocks and your actual numbers).
 
 #### 5-mob AoE pull
 
-* **Consecration** ticks 150 each → 285 threat per tick per mob (×1.9). Over 8s, 2,280 threat per mob.
+* **Consecration** ticks 150 each → 285 threat per tick per mob (×1.9). Over 8s, **2,280 threat per mob**.
 
-* **Avenger’s Shield** tags 3 mobs for 550 each → 1,045 opening threat to those 3.
+* **Avenger’s Shield** tags 3 mobs for **550 each** → **1,045* opening threat to those 3.
 
-* **Holy Shield**: say you consume 8 charges in 10s at 155 each → damage 1,240 → Threat = 1,240 × 1.35 × 1.9 ≈ 3,176, distributed to whatever is swinging (great front-loaded TPS).
+* **Holy Shield**: say you consume 8 charges in 10s at 155 each → damage 1,240 → Threat = 1,240 × 1.35 × 1.9 ≈ **3,176**, distributed to whatever is swinging (great front-loaded TPS).
 
-* **Retribution Aura**: if each mob hits you once per sec for 8s at 26 aura damage per hit → 26 × 1.9 ≈ 49 threat/hit. With 5 mobs × 8s ≈ ~1,960 extra splash threat riding passively. (Real hit timers vary.)
+* **Retribution Aura**: if each mob hits you once per sec for 8s at 26 aura damage per hit → 26 × 1.9 ≈ **49 threat/hit**. With 5 mobs × 8s ≈ ~1,960 extra splash threat riding passively. (Real hit timers vary.)
 
 * **Blessing of Sanctuary**: each block returns small Holy damage → multiply its damage by 1.9 for the threat per block.
 
@@ -230,7 +230,7 @@ Lacerate over time: Suppose your Lacerate DoT totals 600 damage baseline over 15
 
 * **Defensive Stance**: ×1.30 to almost all threat you cause.
 
-* **Defiance (3/3)**: +15% more on top → 1.30 × 1.15 = 1.495× to your ability/damage threat (I’ll call this T_mod). (Battle/ Berserker Stance are ×0.8.) 
+* **Defiance (3/3)**: +15% more on top → 1.30 × 1.15 = 1.495× to your ability/damage threat (multiplier). (Battle/ Berserker Stance are ×0.8.) 
 >Multipliers are multiplicative with everything else (Salv, etc.).
 
 <br>
