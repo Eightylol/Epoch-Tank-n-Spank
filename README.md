@@ -5,6 +5,14 @@
 
 # Warrior
 
+## Stats
+
+### Hit chance
+
+**Bosses are level 63**: melee special hit cap is ~8% (9% “on gear”).
+
+
+
 ## Threat 
 
 ### Core rules (what threat is)
@@ -104,6 +112,16 @@ Assume: Shield Slam hits for 800; Devastate at 5 stacks; Revenge lights; Sunder 
 
 # Paladin
 
+<br>
+<br>
+
+## Stats
+
+### Hit chance
+
+**Bosses are level 63**: melee special hit cap is ~8% (9% “on gear”), while spells (e.g., Avenger’s Shield) use the **spell hit table** (effective cap ~16% vs L63), so AS will “miss/resist” more often unless you gear some spell hit.
+
+<br>
 <br>
 
 ## Threat
@@ -211,6 +229,17 @@ Assume: Shield Slam hits for 800; Devastate at 5 stacks; Revenge lights; Sunder 
 
 # Druid
 
+<br>
+<br>
+
+
+## Stats
+
+### Hit chance
+
+**Bosses are level 63**: melee special hit cap is ~8% (9% “on gear”), while spells (e.g., Faerie Fire) use the **spell hit table** (effective cap ~16% vs L63), so FF will “miss/resist” more often unless you gear some spell hit.
+
+<br>
 <br>
 
 ## Threat
