@@ -1,7 +1,39 @@
 
-# Tank Compendium - Project Epoch
+# 📜 Tank Compendium - Project Epoch
 
 <br>
+
+# The Universal Basics
+
+### What counts as “avoidance”?
+
+* **Miss** (the mob misses you)
+* **Dodge**
+* **Parry** (not for druids)
+* **Block** (mitigation, not avoidance, but it occupies space on the attack table and can “push off” bad outcomes)
+
+### Defense skill
+* Each **+1 Defense skill** gives **+0.04%** Miss, Dodge, Parry, and Block vs. melee and **–0.04%** chance to be crit.
+* Base defense skill at 60 is 300. To be **crit-immune** vs. level 63 (raid boss) you need **440 Defense skill** total.
+
+### Crushing blows & the attack table (level 63 attacker):
+* A boss can land **crushing blows (150% damage)** on targets 3 levels lower.
+* You can push crushing off the table if your Miss + Dodge + Parry + Block ≥ **102.4%** at the moment of the hit. (Only shield tanks can realistically do this at 60 because block chance is the “big handle.”)
+* **Crits** must be removed separately (Defense/class talents) so they don’t occupy space on the table.
+
+### No player DR on dodge/parry.
+* The **diminishing returns** on player dodge/parry arrive with the Wrath pre-patch. With TBC talents at 60, your dodge/parry scale linearly with their sources.
+
+### Parry-haste (why expertise matters):
+* If the boss **parries your attack**, it can speed up its next melee (parry-haste), which **spikes incoming damage**.
+* **Expertise** lowers the boss’s chance to parry/dodge you, so it’s a mitigation stat as well as a threat stat.
+
+<br>
+<br>
+<br>
+<br>
+
+
 
 # Warrior
 
@@ -184,6 +216,33 @@ Assume: Shield Slam hits for 800; Devastate at 5 stacks; Revenge lights; Sunder 
 #### 5-mob trash pull (glue + tab threat)
 
 * **Thunder Clap** hits 4 targets for ~120 → ~314 threat each (×1.495, 1.75x base), then tab Devastate/Sunder the kill target and runner; Demo Shout for mitigation + a bit of blanket threat; Taunt anything that peels and follow with Shield Slam. 
+
+<br>
+<br>
+
+# Quick Notes / Summary
+
+### What avoidance does for you
+
+* You have all three: dodge + parry + block, and you can add a huge, short-duration block chance with Shield Block.
+* Primary survival goal: stay crit-immune, and keep crushing off via Shield Block uptime (i.e., have a block on the table every boss swing).
+* Avoidance synergy with Shield Block: more dodge/parry means fewer blocks consumed, so your Shield Block charges last the full window → more reliable uncrushability.
+
+### Practical trade-offs
+
+* Rage economy: avoidance reduces damage taken, which reduces rage from being hit; in low-damage content you can get rage-starved if you stack only pure avoidance.
+* Parry vs. Dodge: parry also hastes your next white swing, giving tiny TPS/rage bumps; but point-for-point, dodge usually gives more raw avoidance at 60.
+* Expertise = survival tool: less boss parry → fewer parry-hasted boss swings. It’s not “avoidance,” but it smooths damage and helps your Shield Slam/Devastate land.
+
+### Talent/stat tie-ins
+
+* Anticipation: +Defense skill → pushes Miss/Dodge/Parry/Block up and crit down.
+* Shield Block / Shield Mastery: crank block chance/value; block reduces hit size and keeps you uncrushable when active.
+* Vitality/Toughness: more Strength/Armor, so block value (mitigation) and Slam threat go up.
+
+### Mini check-math (example)
+
+* Suppose you have 18% dodge, 16% parry, 20% block, and you hit Shield Block (+big block chance for a few charges). While it’s up you might sit around 60–70% total before Miss/Defense. Add ~5–10% miss/defense plus Shield Block’s huge temporary block and you can cross 102.4% → no crushes during its window. If a parry/dodge happens, you don’t spend a block charge, so you’re safer for the next swing too.
 
 ---
 
@@ -382,6 +441,34 @@ With the uncertainty of how incoming raids will be tuned, these talent builds re
 * **Blessing of Sanctuary**: each block returns small Holy damage → multiply its damage by 1.9 for the threat per block.
 
 > Practical opener: AS → Consecration → Holy Shield (keep it up) → Judge on the runner → maintain seal. Toss Righteous Defense if anything peels (it sets your threat to the leader on that target).
+
+
+<br>
+<br>
+
+# Quick Notes / Summary
+
+### What avoidance does for you
+
+* You also have **dodge + parry + block**, but your “make me uncrushable” button is **Holy Shield** (high block chance with charges, deals Holy damage on block).
+* **Primary survival goal**: maintain **Holy Shield** so **Miss + Dodge + Parry + Block ≥ 102.4%**. If it drops, crushing can return immediately.
+* Like Warriors, **more avoidance = fewer Holy Shield charges consumed**, which keeps you “covered” and smooth.
+
+### Practical trade-offs
+
+* **Mana economy**: less damage taken → your healers spend less effective healing, and **Spiritual Attunement** returns less mana; heavy avoidance gearing can make long pulls feel mana-tight.
+* **Threat style**: a lot of your threat is Holy damage (Consecration, Holy Shield procs, Seal/Judge). Avoidance doesn’t raise that directly; spell damage and One-Hand Spec do.
+* **Expertise = mitigation**: reducing boss parry also helps you (fewer parry-hasted boss swings).
+
+### Talent/stat tie-ins
+
+* **Anticipation**: +Defense skill → more Miss/Dodge/Parry/Block and crit reduction.
+* **Redoubt / Holy Shield**: big block chance and block value uptime (Redoubt) → smoother hits and better charge coverage.
+* **Combat Expertise**: adds expertise (mitigation + TPS reliability) and Stamina (EH), which synergizes with your **avoidance+block** approach.
+
+### Mini check-math (example)
+
+* Say you sit at **15% dodge, 14% parry, 20% block**. With **Holy Shield** up, your block chance spikes; add Miss/Defense and you can reach **102.4%** coverage. Dodges/parries in the window save charges, so you don’t “run out” before the next refresh.
 
 ---
 
@@ -621,7 +708,33 @@ Lacerate over time: Suppose your Lacerate DoT totals 600 damage baseline over 15
 * **Healing tick after pull**: (EffectiveHeal × 0.5) / (#mobs in combat with you). Not multiplied by bear/talents.
 
 * **Rage gains (e.g., pot, Enrage tick)**: Rage × 5 threat (unmodified by form/talents).
----
+
 <br>
 <br>
 
+# Quick Notes / Summary
+
+### What avoidance does for you
+
+* Bears have **no parry** and **no block**; your avoidance is basically **Dodge + (Miss from Defense)**.
+* You **cannot become uncrushable** at 60 because you don’t have block to fill the table. You’ll still **dodge some crushes** (a dodged swing can’t crush), but crushing stays on the table.
+* Your plan is **“EH tanking”**: extremely high **Armor** (Dire Bear + Thick Hide), **huge Stamina**, and solid **Dodge** to cut the number of landed hits.
+
+### Practical trade-offs
+
+* **Rage economy**: avoidance reduces damage taken → **less rage from damage**, but bear white swings and Mangle/Maul still give you income.
+* **Armor matters more** for you than for shield tanks because it’s your primary **spike smoothing** (with no block).
+* **Expertise** is still quietly defensive (fewer boss parry-hasted swings).
+
+### Talent/stat tie-ins
+
+* **Survival of the Fittest**: –3% chance to be crit + **+3% all stats** → reduces the Defense/Resilience you need for crit immunity and bumps Dodge (Agi) and Stamina.
+* **Heart of the Wild + Dire Bear**: huge Stamina multipliers → massive effective health.
+* **Thick Hide: +10% armor from items** → bigger physical DR.
+* **Agility** is a double win: **Dodge + Crit** (threat), and **2 armor per Agi** at 60.
+
+### Mini check-math (example)
+
+* If you’re sitting around **30–40% dodge** with buffs, a boss’s landed swings are way fewer, but the ones that land can still be crushing. Your safety net is the **sheer size of your armor-reduced HP pool**.
+
+---
