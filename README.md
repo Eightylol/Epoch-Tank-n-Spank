@@ -5,13 +5,95 @@
 
 # Warrior
 
+<br>
+
+## Talents
+
+With the uncertainty of how incoming raids will be tuned, these talent builds rely on using a shield (i know, right?).
+
+
+<br>
+
+[**Standard build**](https://mel-talent-calc.vercel.app/warrior/350003011-05-0055511033010103501351/0BAFH1B2CEDGIJNFlPQSTUV)
+* Cookie cutter def build.
+
+<br>
+
+[**Demo Shout build**](https://mel-talent-calc.vercel.app/warrior/340003-055-0055511033010101501351/0AF1BC2CDEGFIlJNpQSTUV)
+* Build with imp demo shout to reduce the damage taken. This is especially useful unless you can rely on other warriors to provide imp demo shout or hunters with owls/bats (screech).
+
+<br>
+
+[**Impale build**](https://mel-talent-calc.vercel.app/warrior/35000301302-03-0055511033010101501351/0AFHIBK2CDEGIlFNJpQSTUV1bbb)
+* Recommended for geared tanks with at least 18% critical strike chances before buffs, which is the threshold where trading 2 points from  Cruelty to activate  Impale instead becomes a small threat increase. 
+* Impale also significantly increases your damage output when not tanking, which is a nice bonus for an off-tank.
+
+
+<br>
+
 ## Stats
 
-### Hit chance
+**Notable talent/stat synergies**
+
+* Vitality: +10% Strength, +5% Stamina ⇒ more AP, more block value & HP. 
+* Toughness: +10% armor from items (multiplicative with other armor buffs). 
+* Anticipation: +20 Defense skill (huge toward crit immunity at 60). 
+* Shield Mastery: +30% block value → more mitigation and Shield Slam damage/threat. 
+* Defiance: +15% threat and +6 expertise. 
+---
+
+### Primary Stats
+
+#### Stamina
+
+* Stamina → Health. Above the first 20 Stamina, 1 Stam ≈ 10 HP. Warrior talents Vitality give +5% total Stamina (5/5), so your Stamina is multiplied before converting to HP.
+* Both Tauren Racial (Endurance) and Mining Passive (Toughness?) - +5% total Stamina each - multiplies your whole post-Stamina HP, and also scales any flat HP.
+* HP formula :
+<br> 
+    * > HP = (Base HP + 10 x (Stam x 1.05vitality)) x 1.05 endurance x 1.05 mining  
+    (...include Kings/fort/etc. where relevant)
+
+#### Strength
+
+* Strength → 2 AP per 1 Str and block value at +1 block value per 20 Strength (in Classic/TBC). Block value reduces damage on blocks and also boosts Shield Slam damage. Shield Mastery multiplies your total block value by +30%.
+
+#### Agility
+
+* Agility → armor, crit, dodge. Simple rules of thumb at lvl 60: 1 Agi = 2 armor; roughly ~30 Agi ≈ 1% dodge and ~33 Agi ≈ 1% crit for Prot Warrior (ratings era numbers; exact class/level scaling varies).
+
+#### Intellect/Spirit
+
+* Minimal value for Prot (mana/regen only).
+
+<br>
+<br>
+
+### Secondary stats & ratings
+
+#### Armor
+* Physical DR -> DR = Armor / (Armor + K).
+* For bosses (level 63), solving for 75% DR gives an armor cap around 17,265 in Classic/TBC-era formulas. <br> (Use K ≈ 400 + 85 × AttackerLevel at 1–59; special 60+ constants exist—community math lands you near that 17.2k number vs 63.) 
+
+#### Defense skill
+* You need 440 Defense skill to be crit-immune vs L63 (5.6% crit to remove; each Defense skill above attacker reduces crit chance by 0.04%).
+* Anticipation (Prot) gives +20 Defense skill by itself. 
+
+### Block rating/value.
+* Block chance comes from block rating/defense. 
+* Block value reduces hit size and fuels Shield Slam. 
+* Shield Block and Shield Mastery scale your block value (and Slam) multiplicatively. 
+
+#### Expertise
+* Each 1 expertise reduces enemy dodge and parry by 0.25%. 
+* Prot gets +6 expertise skill from Defiance (3/3) in TBC. 
+
+#### Hit Chance
 
 **Bosses are level 63**: melee special hit cap is ~8% (9% “on gear”).
 
 
+<br>
+<br>
 
 ## Threat 
 
@@ -113,13 +195,94 @@ Assume: Shield Slam hits for 800; Devastate at 5 stacks; Revenge lights; Sunder 
 # Paladin
 
 <br>
+
+## Talents
+
+With the uncertainty of how incoming raids will be tuned, these talent builds rely on using a shield (i know, right?).
+
+
+<br>
+
+[**Deep Prot build**](https://mel-talent-calc.vercel.app/paladin/-0530513300050152521051-050050013/1BECFGLNooooQPSRUV2BEI1H2H1o)
+* Avenger’s Shield build.
+
+<br>
+
+[**Imp Sanctity Aura**](https://mel-talent-calc.vercel.app/paladin/-053050300005013252103-052050113003012/1BECGLNQPSRuuu2BEIHgCLNO)
+* Sanctity Aura build.
+
+<br>
+
+[**Vengeance build**](https://mel-talent-calc.vercel.app/paladin/-0530503000050130501-0500505130030125/1BECGLNQS2BEIHLNOGP)
+* Sanctity Aura build with Vengeance.
+
+
 <br>
 
 ## Stats
 
-### Hit chance
+**Notable talent/stat synergies**
+
+* Divine Strength (+15% Str) → more AP and block value.
+* Sacred Duty (+6% Stamina) + Combat Expertise (+10% Stamina) → very efficient EH scaling.
+* Anticipation (+20 Defense skill) → pushes you toward crit immunity.
+* One-Handed Weapon Spec (+5% dmg) and Improved Righteous Fury → much stronger threat & 6% DR (with 3/3).
+---
+
+### Primary Stats
+
+#### Stamina
+
+* Stamina → Health. **Sacred Duty** (2/2) = +6% total Stamina; **Combat Expertise** (5/5) = +10% total Stamina. These are Stamina multipliers (they happen before Stam → HP).
+* Both Tauren Racial (Endurance) and Mining Passive (Toughness?) - +5% total Stamina each - multiplies your whole post-Stamina HP, and also scales any flat HP.
+* HP formula :
+<br> 
+    * > HP = (Base HP + 10 x (Stam x 1.06SD x 1.10CE)) x 1.05 endurance x 1.05 mining  
+    (...include Kings/fort/etc. where relevant)
+
+#### Strength
+
+* Strength → 2 AP per 1 Str and block value +1 per 20 Str. Divine Strength (5/5) gives +15% Strength.
+
+#### Agility
+
+* Agility → armor/crit/dodge (same general notes as Warrior; Agi is nice for avoidance and crit for Seal/Judge procs, but your TPS core is Holy damage).
+
+#### Intellect/Spirit
+
+* Intellect → mana & spell crit. Larger blue bar + more spell crit for Holy Shield/Avenger’s Shield/Seal/Judgement scaling; Divine Intellect adds +10% Intellect.
+
+<br>
+<br>
+
+### Secondary stats & ratings
+
+#### Spell Damage
+* Spell damage directly scales Consecration, Holy Shield damage, Avenger’s Shield, Seal/Judgement of Righteousness, etc. (your AoE threat backbone at 60). 
+* One-Handed Weapon Spec (+5% damage) and Improved Righteous Fury (+90% threat, and up to 6% damage reduction at 3/3) are key.
+
+#### Armor
+* Physical DR -> DR = Armor / (Armor + K).
+* For bosses (level 63), solving for 75% DR gives an armor cap around 17,265 in Classic/TBC-era formulas. <br> (Use K ≈ 400 + 85 × AttackerLevel at 1–59; special 60+ constants exist—community math lands you near that 17.2k number vs 63.) 
+
+#### Defense skill
+* You need 440 Defense skill to be crit-immune vs L63 (5.6% crit to remove; each Defense skill above attacker reduces crit chance by 0.04%).
+* Anticipation (Prot) gives +20 Defense skill by itself. 
+
+### Block rating/value.
+* Redoubt (proc block chance), Holy Shield gives huge block chance (and deals damage on blocks). 
+* Strength increases block value (mitigation) but Holy Shield’s damage scales primarily with spell coefficients. 
+
+#### Expertise
+* Each 1 expertise reduces enemy dodge and parry by 0.25%. 
+* Combat Expertise also grants +5 expertise (i.e., −1.25% dodge/parry combined), improving white/special connects for SoR/JoR melee pieces and Avengers swings.
+
+#### Hit chance
 
 **Bosses are level 63**: melee special hit cap is ~8% (9% “on gear”), while spells (e.g., Avenger’s Shield) use the **spell hit table** (effective cap ~16% vs L63), so AS will “miss/resist” more often unless you gear some spell hit.
+
+
+
 
 <br>
 <br>
@@ -230,14 +393,103 @@ Assume: Shield Slam hits for 800; Devastate at 5 stacks; Revenge lights; Sunder 
 # Druid
 
 <br>
+
+## Talents
+
+
+
+<br>
+
+[**Standard PvE DPS/Tank Hybrid Build**](https://mel-talent-calc.vercel.app/druid/-503032132322105301251-05503301/2BCEH1AECFGHKJIMLOPRSTU2F)
+* This is the standard PvE build that the vast majority of feral druids should take regardless of whether they primarily tank or primarily DPS in their raid team.
+
+<br>
+
+[**Demo Roar Tank/DPS Hybrid Build**](https://mel-talent-calc.vercel.app/druid/-553032132322105301051-05503001/2BCEH1AECFGHKJIMLOPRTUB)
+* This build gives up **Improved Leader of the Pack** and  **Intensity** in order to pick up 5/5 **Feral Aggression**. Use this in the event that your raid team lacks warriors Demoralizing Shout.
+
+<br>
+
+[**PvP Tank Talent Build**](https://mel-talent-calc.vercel.app/druid/01-503202132322125331051-05503001/2BCEH1ACFGHKJIMLOPRTUD0B1NQ)
+* This build picks up **Brutal Impact**, **Nurturing Instinct**, and **Primal Tenacity**. It also takes a single point in the Balance tree for **Nature's Grasp**.
+
+
 <br>
 
 
 ## Stats
 
-### Hit chance
+**Notable talent/stat synergies**
 
-**Bosses are level 63**: melee special hit cap is ~8% (9% “on gear”), while spells (e.g., Faerie Fire) use the **spell hit table** (effective cap ~16% vs L63), so FF will “miss/resist” more often unless you gear some spell hit.
+* Heart of the Wild and Dire Bear together super-charge Stamina; SotF adds +3% stats and −3% crit taken.
+* Thick Hide (3/3) adds +10% armor from items, stacking with Dire Bear’s multiplier.
+* Weapon AP is replaced by Feral Attack Power on druid weapons.
+* Strength/Agility and armor are your main levers.
+---
+
+### Primary Stats
+
+#### Stamina
+
+* Stamina → Health. Bears get very large Stamina multipliers:
+    * Dire Bear Form: +25% Stamina baseline (and a massive armor multiplier from leather).
+    * Heart of the Wild (5/5): +20% Stamina in Bear/Dire Bear.
+    * Survival of the Fittest (3/3): +3% to all attributes (so Stamina +3%), and −3% chance to be critically hit. (This talent does not by itself make you crit-immune at level 60; you still need additional Defense/Resilience to meet the ~5.6% boss crit reduction.)
+* Both Tauren Racial (Endurance) and Mining Passive (Toughness?) - +5% total Stamina each - multiplies your whole post-Stamina HP, and also scales any flat HP.
+* HP formula :
+<br> 
+    * > HP = (Base HP + 10 x (Stam x 1.03SotF x 1.20HotW x 1.25DireBear)) x 1.05 endurance x 1.05 mining  
+    (...include Kings/Mark/fort/etc. where relevant)
+
+#### Strength
+
+* Strength → 2 AP per 1 Str in Bear. (Agility does not add AP to Bear; that’s Cat-only.)
+
+#### Agility
+
+* Agility → armor, crit, dodge. 1 Agi = 2 armor, plus strong dodge/crit for Bears. Agility is excellent for mitigation and threat (crit → Maul/Lacerate TPS), but Stamina/EH is king at 60.
+
+
+<br>
+<br>
+
+### Secondary stats & ratings
+
+#### Armor
+* Armor multipliers: Dire Bear Form multiplies armor from leather by roughly ~4× (patch texts vary by era; many references list ~+400% from items). Thick Hide (3/3) adds +10% armor from items on top. These stack multiplicatively and make Bears the kings of physical DR at 60. 
+
+#### Defense skill
+* Bosses have ~5.6% chance to crit (+3 levels). SotF gives −3%, so you still need −2.6% from Defense skill. At level 60 with ratings: 1.5 Defense rating = 1 Defense skill, and 25 Defense skill ≈ −1% crit.
+
+#### Block rating/value.
+* Can’t block or parry. You live on Armor + Dodge + Big Health.
+
+#### Expertise
+* Each 1 expertise reduces enemy dodge and parry by 0.25%.
+
+#### Hit chance
+
+* Bosses are level 63: melee special hit cap is ~8% (9% “on gear”).
+
+### Stat Weights
+
+| Stat                   | Normalized Weight |
+| ---------------------- | ----------------: |
+| Attack Power           |                 1 |
+| Feral Attack Power     |                 1 |
+| Strength               |             2.266 |
+| Agility                |               4.6 |
+| Hit Rating             |               3.5 |
+| Expertise Rating       |               7.3 |
+| Critical Strike Rating |               1.9 |
+| Haste Rating           |               1.6 |
+| Armor Penetration      |              0.34 |
+| Stamina                |              3.05 |
+| Armor                  |              0.59 |
+| Defense Rating         |               2.2 |
+| Dodge Rating           |               1.7 |
+
+
 
 <br>
 <br>
