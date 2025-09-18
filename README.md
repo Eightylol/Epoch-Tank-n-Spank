@@ -1,7 +1,37 @@
 
 # 📜 Tank Compendium - Project Epoch
 
+In this document, I have attempted to gather information relevant to tanks in Project Epoch. Being Classic WoW with TBC talents, some values might be off and I will update regularly based on experience and feedback.
+
+---
+
+
+## Table of Contents
+- [**The Universal Basics**](#the-universal-basics)
+- [**Warrior**](#warrior)
+  - [Talents](#talents)
+  - [Stats](#stats)
+  - [Threat](#threat)
+  - [Quick Notes / Summary](#quick-notes--summary)
+- [**Paladin**](#paladin)
+  - [Talents](#talents-1)
+  - [Stats](#stats-1)
+  - [Threat](#threat-1)
+  - [Quick Notes / Summary](#quick-notes--summary-1)
+- [**Druid**](#druid)
+  - [Talents](#talents-2)
+  - [Stats](#stats-2)
+  - [Threat](#threat-2)
+  - [Quick Notes / Summary](#quick-notes--summary-2)
+- [**End Notes**](#end-notes)
+
+---
+
 <br>
+<br>
+<br>
+<br>
+
 
 # The Universal Basics
 
@@ -738,3 +768,21 @@ Lacerate over time: Suppose your Lacerate DoT totals 600 damage baseline over 15
 * If you’re sitting around **30–40% dodge** with buffs, a boss’s landed swings are way fewer, but the ones that land can still be crushing. Your safety net is the **sheer size of your armor-reduced HP pool**.
 
 ---
+
+<br>
+<br>
+<br>
+<br>
+
+## End Notes
+
+* Numbers here are reference points; validate in logs and adjust to your comp.
+* Numbers are guides; logs are truth. Test, iterate, share back.
+* Found a mistake or a better line? DM me, and i will edit/replace.
+
+<br>
+<br>
+<br>
+
+<center> @Eightyfive
+
