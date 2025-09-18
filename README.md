@@ -29,8 +29,6 @@ In this document, I have attempted to gather information relevant to tanks in Pr
 
 <br>
 <br>
-<br>
-<br>
 
 
 # The Universal Basics
@@ -60,8 +58,7 @@ In this document, I have attempted to gather information relevant to tanks in Pr
 
 <br>
 <br>
-<br>
-<br>
+
 
 
 
@@ -784,5 +781,5 @@ Lacerate over time: Suppose your Lacerate DoT totals 600 damage baseline over 15
 <br>
 <br>
 
-<center> @Eightyfive
+<p align="center">@Eightyfive</p>
 
