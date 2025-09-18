@@ -771,15 +771,18 @@ Lacerate over time: Suppose your Lacerate DoT totals 600 damage baseline over 15
 <br>
 <br>
 
-## End Notes
+<h2 id="end-notes" align="center">End Notes</h2>
 
-* Numbers here are reference points; validate in logs and adjust to your comp.
-* Numbers are guides; logs are truth. Test, iterate, share back.
-* Found a mistake or a better line? DM me, and i will edit/replace.
+<p align="center">Numbers here are reference points; validate in logs and adjust to your comp.</p>
+<p align="center">Numbers are guides; logs are truth. Test, iterate, share back.</p>
+<p align="center">Found a mistake or false information? DM me, and i will edit/replace.</p>
+
+---
+
 
 <br>
 <br>
-<br>
+
 
 <p align="center">@Eightyfive</p>
 
